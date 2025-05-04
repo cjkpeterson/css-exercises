@@ -4,3 +4,6 @@ p.odd {
     background-color: #ee98a3;
     font-family: "Verdana", "DejaVu Sans", sans-serif;
 }
+p.odd.third {
+    font-size: 36px;
+}
