@@ -4,10 +4,15 @@ p.odd {
     background-color: #ee98a3;
     font-family: "Verdana", "DejaVu Sans", sans-serif;
 }
-p.odd.third {
+.odd.third {
     font-size: 24px;
 }
 div#second {
     color: rgb(0, 0, 255);
     font-size: 36px;
+}
+#fourth {
+    font-weight: bold;
+    font-size: 24px;
+    background-color: hsl(130, 65%, 73%);
 }
