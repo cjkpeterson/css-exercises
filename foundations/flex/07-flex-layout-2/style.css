@@ -44,9 +44,7 @@ body {
   display: flex;
   flex-direction: column;
   padding: 16px;
-  /* gap: 16px; */
-  /* This isn't working for some reason */
-  
+  gap: 16px;
 }
 
 ul {
@@ -55,6 +53,9 @@ ul {
   list-style-type: none;
 }
 
+li {
+  margin-bottom: 16px;
+}
 a {
   text-decoration: none;
   font-size: 24px;
@@ -66,12 +67,13 @@ a {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
-  justify-content: start;
+
 
 }
 .card {
-  width: 305px;
+  width: 300px;
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  padding: 16px;
 }
